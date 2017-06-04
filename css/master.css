@@ -1,22 +1,27 @@
 * {
-	margin: 0:
-	padding: 0;
+margin: 0;
+padding: 0;
+
+
 }
-.main {
-	margin: 0;
-    padding: 55px 50px 110px 50px;
-    font-style: Arial, Helvetica, sans-serif;
-    background: #d1d1d1;
-     width: 760px;
-    height: 1690px;
+.wraper {
+    margin-top: 2px;
+    padding: 58px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+     background: #d1d1d1; 
+    width: 644px;
+    height: 1573px;
 }
+
 .parent {
-	margin: 0;
-  width: 640px;
-  min-height: 20px;
-  background: white;
-  height: 1600px;
+ width: 640px;
+    background: white;
+    margin: 0px 0 0px 0px;
+    height: 1521px;
+    overflow:hidden;
 }
+
 .row-header {
 	width: 640px;
     height: 150px;
@@ -24,60 +29,114 @@
     float: left;
 }
 .row-text {
-	width: 641px;
-    height: 345px;
-    background: #fffa00;
+  /*  width: 580px;
+    height: 310px;*/
     float: left;
+    font-size: 16px;
+    padding: 52px 50px 30px;
+    display: block;
+
+}
+.one {
+display: block;
+line-height: 150%;
+text-align: center;
+
+}
+.next {
+    display: block;
+    line-height: 150%;
+    text-align: left;
+    margin: -8px 0px;
+
+}
+.next2 {
+    display: block;
+    line-height: 150%;
+    text-align: left;
+    margin: -14px 0px;
+}
+.next3 {
+    display: block;
+    line-height: 150%;
+    text-align: left;
+    margin: -18px 0;
+
 }
 .row1{
 	width: 256px;
     height: 212px;
     float: left;
-    margin: 13px 0 0 49px;
+    margin: 17px 0 0 49px;
 }
   
 .row2{
 	width: 256px;
     height: 212px;
     float: left;
-    margin: 13px 0 0 30px;
+    margin: 17px 0 0 30px;
    
     }
 button {
 	width: 100%;
-    height: 42px;
-    color: #ffffff;
-    font-size: 14px;
+    height: 43px;
+    font-size: 15px;
     background: #e93f33;
     text-align: center;
     border-radius: 5px;
     border: 0;
-    margin-top: 60px;
+    margin-top: 38px;
+    color: white;
+}
+span {
+	    display: block;
+    text-align: left;
+    margin: 11px 0 0 0;
+     line-height: 149%;
 }
 
 .n3 {
-	color:#ffffff;
-    font-size: 14px;
+	    color: #ffffff;
+    font-size: 16px;
     background: #e93f33;
     text-align: center;
     border-radius: 5px;
     border: 0;
     height: 42px;
     width: 100%;
+    margin: 12px 0 0 0;
 }
+.row3-1 span {
+	  display: block;
+    text-align: left;
+    line-height: 156%;
+    margin: 9px 0 0 0;
+	    }
+.row3-2 span {
+	  display: block;
+    text-align: left;
+    line-height: 156%;
+    margin: 9px 0 0 0;
 
+}
+.row3-3 span {
+	  display: block;
+    text-align: left;
+    line-height: 156%;
+    margin: 9px 0 0 0;
+	    }
 .row3-1 {
       width: 160px;
     height: 376px;
     float: left;
     margin: 172px 0 0px 50px;
+  
 }
 .row3-2 {
   	   width: 160px;
     height: 376px;
     float: left;
     margin: 172px 0 0px 30px;
- 
 }
 .row3-3 {
   	   width: 160px;
@@ -88,30 +147,32 @@ button {
 }
 
 .row-fouter {
+	display: block;
 	width: 541px;
-   
     float: left;
-    margin: 30px 0 0px 49px;
+    margin: 17px 0 0px 49px;
+        line-height: 148%;
 }
 .button-f {
 	    width: 100%;
     height: 41px;
     color: #ffffff;
-    font-size: 14px;
     background: #e93f33;
     text-align: center;
     border-radius: 5px;
     border: 0;
-    margin-top: 61px;
+    margin-top: 53px;
+    font-size: 15px;
 }
 .row-otp {
-	    width: 642px;
+	    width: 527px;
     height: 82px;
     background: #d1d1d1;
     float: left;
-    margin-top: 32px;
-    margin-left: -1px;
-    color: white;
+    color: red;
+    text-align: center;
+    margin: 35px 10px 17px 157px;
+    font-size: 11px;
     text-align: center;
 }
 
