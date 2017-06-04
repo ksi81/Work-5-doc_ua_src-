@@ -169,11 +169,20 @@ span {
     height: 82px;
     background: #d1d1d1;
     float: left;
-    color: red;
+    color: white;
     text-align: center;
     margin: 35px 10px 17px 157px;
     font-size: 11px;
     text-align: center;
+}
+.row-otp a{
+	margin-top: 10px;
+    margin-left: 130px;
+    font-size: 12px;
+    color: white;
+}
+.row-otp span{
+	line-height: 120%
 }
 
 
